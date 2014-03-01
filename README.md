@@ -6,3 +6,5 @@ Jeu Tetris codé en javascript, utilisant au choix :
 - Une intelligence artificielle (codé en javascript également)
 
 Pour lancer le tetris, executez `index.html` dans votre navigateur (récent si possible).
+
+![Tetris](tetris.png)
