@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Tetris</title>
+		<meta charset="utf-8" />
+
+		<link rel="icon" type="image/fid" href="images/favicon.ico" />
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css' />
+		<script src="javascript/lib_Transit.js"></script>
+
+		<link rel="stylesheet" href="css/reset.css" type="text/css" />
+		<link rel="stylesheet" href="css/design.css" type="text/css" />
+	</head>
+	<body>
+		<div id="global"> 
+			<div id="tetris_1"></div>
+		</div>
+
+		<script>var fastMode = false; </script>
+		<script src="javascript/Helper.js"></script>
+		<script src="javascript/IA.js"></script>
+		<script src="javascript/Tetris.js"></script>
+		<script src="javascript/Blocks.js"></script>
+
+		<script>
+		var tetris = new Tetris('tetris_1');
+		var intel = new IA(tetris);
+		</script>
+
+	</body>
+</html>
